@@ -6,7 +6,6 @@ hackaday = ('0x1', '0xe0', '0x0', '0x0', '0x0', '0x0', '0x0', '0xf0', '0x0', '0x
 ROW_OFFSET = 9 #Used to center image vertically
 disp = display.open()
 values = [[((x * 360.0) / 11), 1.0, 1] for x in range(11)]
-bands = [[((x * 360.0) / 160), 1.0, 1] for x in range(160)]
 
 disp.clear()
 
