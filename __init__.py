@@ -25,7 +25,7 @@ while True:
     res = disp.showbuff()
 
     counter += 1
-    if counter > 71:
+    if counter > 95:
         counter = 0
 
     if counter%7 == 0:
